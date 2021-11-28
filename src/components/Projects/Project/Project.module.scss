@@ -1,0 +1,48 @@
+.project {
+  flex: 0 1 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 15px;
+
+  @media(max-width: 767px) {
+    margin-bottom: 20px;
+  }
+
+  &__inner {
+    background-color: #252527;
+    box-shadow: 0px 0px 6px black;
+    border-radius: 6px;
+    height: 100%;
+  }
+
+  &__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    @media (max-width: 474px){
+    }
+    img{
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+  &__description{
+    padding: 0 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    @media (max-width: 767px){
+      margin: 15px 0;
+    }
+  }
+  &__title{
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-size: 26px;
+  }
+}

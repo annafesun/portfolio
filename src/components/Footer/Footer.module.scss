@@ -1,0 +1,27 @@
+.footer {
+  padding: 40px 0;
+  background-color: #1f1f20;
+  color: white;
+  @media (max-width: 767px) {
+    padding: 20px 0;
+  }
+
+  &__inner {
+    text-align: center;
+  }
+
+  &__social-networks {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 470px;
+  }
+
+  &__btn {
+    margin: 10px;
+  }
+
+  &__copyright {
+    margin-top: 30px;
+  }
+}

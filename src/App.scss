@@ -1,0 +1,55 @@
+// fonts
+@font-face {
+  font-family: 'SundayBest';
+  src: url('./assets/fonts/SundayBest.woff2') format('woff2'),
+  url('./assets/fonts/SundayBest.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Goldfather';
+  src: url('./assets/fonts/Goldfather.woff2') format('woff2'),
+  url('./assets/fonts/Goldfather.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+html, body, *, *::before, *::after {
+  box-sizing: border-box;
+}
+body{
+  font-family: Bahnschrift;
+}
+.container {
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 20px;
+  @media (max-width: 767px) {
+    padding: 0px 15px;
+    max-width: 95%;
+
+  }
+}
+
+p, h1 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+html{
+  &.menu-opened{
+    overflow: hidden !important;
+  }
+}
+
+
+
+
+
+

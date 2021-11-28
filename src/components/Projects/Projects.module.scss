@@ -1,0 +1,26 @@
+.projects {
+  background-color: #1f1f20;
+  display: flex;
+  align-items: center;
+  padding: 45px 0;
+  @media(max-width: 767px){
+    padding: 30px 0;
+  }
+  &__inner {
+  }
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: stretch;
+    @media(max-width: 767px){
+      flex-direction: column;
+      align-content: center;
+    }
+  }
+ .buttons{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+ }
+}

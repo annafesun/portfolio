@@ -1,0 +1,33 @@
+.button {
+  position: relative;
+  display: inline-block;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  background-color: #4e93e6;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 0 #0e067d;
+  transition: all 150ms ease;
+  font-family: cursive;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  &:hover{
+    box-shadow: none;
+    top: 2px;
+  }
+
+  &.active {
+    background-color: #5604d9;
+    box-shadow: 0 2px 0 #4407a0;
+    &:hover{
+      box-shadow: none;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.social-network__btn {
+  background-image: linear-gradient(to right,  #0710a8 0%, #13a3af 40% );
+  background-position: right ;
+  background-size: 200% auto;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  box-shadow: 0px 0px 4px black;
+  transition: .5s;
+  position: relative;
+  overflow: hidden;
+  span{
+    z-index: 10;
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+  }
+  &::before{
+    z-index: 5;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 103%;
+    height: 100%;
+    background-image: linear-gradient(to left,  #0a038d 0%, #1d9faa 40% );
+    background-size: 200% auto;
+    background-position: right ;
+    transition: .5s;
+  }
+  &:hover {
+    background-position: left ;
+    &::before{
+      transform: translateX(100%);
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.main__description {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  @media (max-width: 767px) {
+    margin-bottom: 40px;
+  }
+
+  p {
+    font-weight: 300;
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 54px;
+    font-family: 'Goldfather';
+    margin-bottom: 15px;
+    span {
+      position: relative;
+      display: inline-block;
+      z-index: 2;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 20px;
+        width: 100%;
+        z-index: -1;
+        background: #4e93e6;
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.skill {
+  flex: 0 1 33.333%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  @media(max-width: 991px) {
+    flex: 0 1 50%;
+  }
+  @media(max-width: 767px) {
+    margin-bottom: 20px;
+  }
+
+  h3{
+    margin: 10px 0;
+  }
+
+  &__inner {
+    margin: 10px;
+    flex-grow: 1;
+  }
+
+  &__icon-wrapper {
+    background: #151515;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  &__icon {
+    margin-top: 23px;
+    margin-right: 23px;
+    width: 65px;
+    height: 65px;
+    background-color: #252527;
+    transform: rotate(-45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      transform: rotate(45deg);
+      max-width: 40px;
+      margin: 0 auto;
+    }
+  }
+
+  &__description{
+    padding: 0 15px;
+    max-width: 400px;
+    margin: 14px auto 8px;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+  }
+
+
+}
