@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9cd1a027.chunk.css",
+    "main.js": "/portfolio/static/js/main.eb7bcb7d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.eb7bcb7d.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f18b6ef5.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f18b6ef5.js.map",
+    "static/js/2.861109ee.chunk.js": "/portfolio/static/js/2.861109ee.chunk.js",
+    "static/js/2.861109ee.chunk.js.map": "/portfolio/static/js/2.861109ee.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.d6b2518f89e83176582cf57d764c5f06.js": "/portfolio/precache-manifest.d6b2518f89e83176582cf57d764c5f06.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.9cd1a027.chunk.css.map": "/portfolio/static/css/main.9cd1a027.chunk.css.map",
+    "static/js/2.861109ee.chunk.js.LICENSE.txt": "/portfolio/static/js/2.861109ee.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/portfolio/static/media/SundayBest.34700c12.woff2",
+    "static/media/avatar.jpeg": "/portfolio/static/media/avatar.23652fc2.jpeg",
+    "static/media/counter.png": "/portfolio/static/media/counter.122641c3.png",
+    "static/media/ico-antd.svg": "/portfolio/static/media/ico-antd.b29324c4.svg",
+    "static/media/ico-bootstrap.png": "/portfolio/static/media/ico-bootstrap.73844123.png",
+    "static/media/ico-css.png": "/portfolio/static/media/ico-css.d0eceb1b.png",
+    "static/media/ico-js.png": "/portfolio/static/media/ico-js.aac4650a.png",
+    "static/media/ico-react.png": "/portfolio/static/media/ico-react.47ce6e77.png",
+    "static/media/polind.png": "/portfolio/static/media/polind.44993df4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f18b6ef5.js",
+    "static/js/2.861109ee.chunk.js",
+    "static/css/main.9cd1a027.chunk.css",
+    "static/js/main.eb7bcb7d.chunk.js"
+  ]
+}
