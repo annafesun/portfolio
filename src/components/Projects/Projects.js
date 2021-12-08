@@ -12,8 +12,8 @@ class Projects extends React.Component {
     state = {
         projects: [
             {
-                projectLink: 'https://vitaliy-pidkivka.github.io/social-network/#/profile', // TODO: change link
-                image: '', // TODO: change image
+                projectLink: 'https://annafesun.github.io/social-network/',
+                image: '',
                 project: 'Social network',
                 description: 'Technologies used: React, Redux, React-redux, Redux-thunk, Redux-form, Axios,' +
                     ' reselect, Typescript, SCSS, REST API',
@@ -21,7 +21,7 @@ class Projects extends React.Component {
                 filterValue: 'react',
             },
             {
-                projectLink: 'https://vitaliy-pidkivka.github.io/counter/', // TODO: change link
+                projectLink: 'https://annafesun.github.io/counter/',
                 image: counter,
                 project: 'Counter',
                 description: 'React application',
@@ -29,10 +29,10 @@ class Projects extends React.Component {
                 filterValue: 'react',
             },
             {
-                projectLink: 'https://vitaliy-pidkivka.github.io/Polind/', // TODO: change link
+                projectLink: 'https://annafesun.github.io/Polind/',
                 image: polind,
                 project: 'Polind',
-                description: 'Technologies used: HTML5, SCSS, JS, Jquery',
+                description: 'Technologies used: HTML5, SCSS, JS',
                 id: 10,
                 filterValue: 'landing',
             },
