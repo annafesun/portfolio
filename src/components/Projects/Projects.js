@@ -4,6 +4,7 @@ import Title from '../Shared/Title/Title'
 import Project from './Project/Project'
 import onlineStore from '../../assets/images/projects/onlineStore.png'
 import counter from '../../assets/images/projects/counter.png'
+import todo from '../../assets/images/projects/todo.png'
 import polind from '../../assets/images/projects/polind.png'
 import Button from '../Shared/Button/Button'
 import { Element } from 'react-scroll'
@@ -25,7 +26,7 @@ class Projects extends React.Component {
         image: counter,
         project: 'Counter',
         description: 'React application',
-        id: 7,
+        id: 2,
         filterValue: 'react',
       },
       {
@@ -33,8 +34,16 @@ class Projects extends React.Component {
         image: polind,
         project: 'Polind',
         description: 'Technologies used: HTML5, SCSS, JS',
-        id: 10,
+        id: 3,
         filterValue: 'landing',
+      },
+      {
+        projectLink: 'https://annafesun.github.io/todo_list',
+        image: todo,
+        project: 'TodoList',
+        description: 'Technologies used: React, CSS, local storage',
+        id: 4,
+        filterValue: 'react',
       },
     ],
     filter: 'all',
