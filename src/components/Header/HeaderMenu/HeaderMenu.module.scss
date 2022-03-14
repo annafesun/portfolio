@@ -18,7 +18,8 @@
   transition: all .7s ease-in-out;
   transform: translate(50%, -100%);
   opacity: .9;
-  &::before{
+
+  &::before {
     content: "";
     width: 200%;
     height: 200%;
@@ -32,30 +33,37 @@
     transform: translate(50%, -100%);
     transition: all .4s ease;
   }
-  &.active{
+
+  &.active {
     transform: translate(-25%, -25%);
-    &::before{
+
+    &::before {
       transform: translate(-25%, -25%);
     }
   }
-  li{
+
+  li {
     font-size: 50px;
     line-height: 45px;
     position: relative;
     margin: 20px 0;
-    &:hover{
-      &::before{
+
+    &:hover {
+      &::before {
         transform: scale(1);
       }
-      .mask{
+
+      .mask {
         transform: skewX(12deg) translateX(5px);
         color: white;
-        &+.mask{
+
+        & + .mask {
           transform: skewX(12deg) translateX(-5px);
         }
       }
     }
-    &::before{
+
+    &::before {
       content: '';
       display: block;
       position: absolute;
@@ -70,12 +78,14 @@
       transition: transform 0.7s cubic-bezier(0.16, 1.08, 0.38, 0.98);
       z-index: 1;
     }
-    a{
+
+    a {
       text-decoration: none;
       color: transparent !important;
 
     }
-    .mask{
+
+    .mask {
       display: block;
       position: absolute;
       overflow: hidden;
@@ -83,13 +93,16 @@
       top: 0;
       height: 49%;
       transition: all 0.7s cubic-bezier(0.16, 1.08, 0.38, 0.98);
-      span{
+
+      span {
         display: block;
       }
-      &+.mask{
+
+      & + .mask {
         top: 48.9%;
         height: 51.1%;
-        span{
+
+        span {
           transform: translateY(-53%);
         }
       }
