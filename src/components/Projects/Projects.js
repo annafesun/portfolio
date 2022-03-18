@@ -38,10 +38,10 @@ class Projects extends React.Component {
         filterValue: 'landing',
       },
       {
-        projectLink: 'https://annafesun.github.io/todo_list',
+        projectLink: 'https://annafesun.github.io/to_do_list/',
         image: todo,
         project: 'TodoList',
-        description: 'Technologies used: React, CSS, local storage',
+        description: 'Technologies used: React, CSS,Ant Design, local storage',
         id: 4,
         filterValue: 'react',
       },
